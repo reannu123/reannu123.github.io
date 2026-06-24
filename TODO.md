@@ -42,8 +42,11 @@ temporary until the user replaces them.
 
 ## Next
 
-- [ ] Publish the revived site through a focused GitHub change after the
-      stopping point is verified.
+- [x] Published the verified revival through draft PR #1 on 2026-06-25:
+      https://github.com/reannu123/reannu123.github.io/pull/1
+      GitHub Actions CI passed for `b464d4e`.
+- [ ] Merge PR #1, then verify the GitHub Pages deployment and custom domain
+      before marking the legacy portfolio revival complete.
 
 ## Later
 
@@ -72,3 +75,5 @@ temporary until the user replaces them.
       passed. Browser-plugin visual interaction was intentionally stopped at
       the user's request; the user completed manual visual QA before publishing.
 - [x] User manually verified the desktop and mobile presentation on 2026-06-25.
+- [x] Opened draft PR #1 and verified its GitHub Actions CI run passed on
+      2026-06-25.
