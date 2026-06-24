@@ -45,8 +45,11 @@ temporary until the user replaces them.
 - [x] Published the verified revival through draft PR #1 on 2026-06-25:
       https://github.com/reannu123/reannu123.github.io/pull/1
       GitHub Actions CI passed for `b464d4e`.
-- [ ] Merge PR #1, then verify the GitHub Pages deployment and custom domain
-      before marking the legacy portfolio revival complete.
+- [x] Merged PR #1 on 2026-06-25 and deployed the current static artifact to
+      `gh-pages` (`74361a1`) with `reannuinstrella.tech` as its CNAME.
+- [ ] Resolve the external Cloudflare/DNS origin for `reannuinstrella.tech`,
+      then verify GitHub Pages is built, HTTPS is available, and the public site
+      returns the refreshed bundle before marking the revival complete.
 
 ## Later
 
@@ -59,6 +62,10 @@ temporary until the user replaces them.
 
 - Current résumé and personal-profile copy have not yet been supplied. Keep the
   temporary marker visible; this does not block a technically complete revival.
+- `reannuinstrella.tech` is configured in GitHub Pages and resolves through
+  Cloudflare, but public HTTPS requests return Cloudflare 520 and GitHub Pages
+  cannot yet enforce HTTPS. This requires access to the domain's Cloudflare/DNS
+  settings; the repository and deployed `gh-pages` artifact are already ready.
 
 ## Done
 
@@ -77,3 +84,5 @@ temporary until the user replaces them.
 - [x] User manually verified the desktop and mobile presentation on 2026-06-25.
 - [x] Opened draft PR #1 and verified its GitHub Actions CI run passed on
       2026-06-25.
+- [x] Merged PR #1 (`6ad7211`) and switched the GitHub Pages CNAME/deployment
+      branch to `reannuinstrella.tech` on 2026-06-25.
