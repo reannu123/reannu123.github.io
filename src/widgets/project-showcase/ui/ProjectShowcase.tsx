@@ -26,9 +26,16 @@ export function ProjectShowcase() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            <a href={project.href} target="_blank" rel="noreferrer">
-              View project <ArrowUpRight aria-hidden="true" size={17} />
-            </a>
+            <div className="project-card__links">
+              {project.demoHref ? (
+                <a href={project.demoHref} target="_blank" rel="noreferrer">
+                  Live demo <ArrowUpRight aria-hidden="true" size={17} />
+                </a>
+              ) : null}
+              <a href={project.href} target="_blank" rel="noreferrer">
+                Source <ArrowUpRight aria-hidden="true" size={17} />
+              </a>
+            </div>
           </article>
         ))}
       </div>

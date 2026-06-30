@@ -73,7 +73,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .project-card p { color: #bfc1ba; line-height: 1.6; margin: 0; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; margin: auto 0 1.5rem; padding: 1.5rem 0 0; }
 .tag-list li { border: 1px solid rgba(244, 241, 233, 0.14); border-radius: 999px; color: #d9ddd5; font-size: 0.72rem; padding: 0.36rem 0.55rem; }
-.project-card > a { align-items: center; color: #d9f9a0; display: inline-flex; font-size: 0.86rem; font-weight: 720; gap: 0.35rem; text-decoration: none; }
+.project-card__links { display: flex; flex-wrap: wrap; gap: 0.9rem; }
+.project-card__links a { align-items: center; color: #d9f9a0; display: inline-flex; font-size: 0.86rem; font-weight: 720; gap: 0.35rem; text-decoration: none; }
 
 .section--services { background: #e8e6dd; color: #101410; max-width: none; padding-left: max(5vw, calc((100vw - 78rem) / 2 + 5vw)); padding-right: max(5vw, calc((100vw - 78rem) / 2 + 5vw)); }
 .section--services .eyebrow { color: #476123; }
