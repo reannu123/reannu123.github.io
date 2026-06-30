@@ -1,12 +1,12 @@
 # Portfolio Website TODO
 
-Last updated: 2026-06-25
+Last updated: 2026-07-01
 
 ## Project
 
 - Name: Portfolio Website
 - Path: `/home/reannu123/Projects/portfolio/reannu123.github.io`
-- Status: active
+- Status: complete
 - Stage: revival
 - Portfolio role: Public bridge portfolio packaging four shipped flagships and
   the user's freelance positioning.
@@ -49,8 +49,10 @@ temporary until the user replaces them.
       `gh-pages` (`74361a1`) with `reannuinstrella.tech` as its CNAME.
 - [x] Verified the apex DNS records, GitHub Pages build, and public HTTP bundle
       for `reannuinstrella.tech` on 2026-06-25.
-- [ ] Wait for GitHub Pages to issue the TLS certificate, enable HTTPS, and
-      verify the HTTPS site before marking the revival complete.
+- [x] GitHub Pages issued TLS and HTTPS was verified on 2026-07-01:
+      `https://reannuinstrella.tech/` returned 200, Pages deployment run
+      `28464954134` passed, and browser smoke confirmed live demo links for
+      PayMongo, Workout Tracker, Rock Paper Scissors, and Event Countdown.
 
 ## Later
 
@@ -63,9 +65,7 @@ temporary until the user replaces them.
 
 - Current résumé and personal-profile copy have not yet been supplied. Keep the
   temporary marker visible; this does not block a technically complete revival.
-- No active external blocker. GitHub Pages is provisioning the TLS certificate
-  for `reannuinstrella.tech`; HTTPS is not available yet. GitHub notes that
-  certificate availability can take up to 24 hours after DNS changes.
+- No active external blocker.
 
 ## Done
 
@@ -88,3 +88,8 @@ temporary until the user replaces them.
       branch to `reannuinstrella.tech` on 2026-06-25.
 - [x] Verified the four GitHub Pages apex A records, successful Pages build, and
       public HTTP bundle for `reannuinstrella.tech` on 2026-06-25.
+- [x] Added live-demo links for the four flagship cards and published the
+      static artifact to `gh-pages` on 2026-07-01. Verified
+      `https://reannuinstrella.tech/` 200 and rendered anchors for
+      `paymongo.reannu.dev`, `workout.reannu.dev`, `rps.reannu.dev`, and
+      `countdown.reannu.dev`.
