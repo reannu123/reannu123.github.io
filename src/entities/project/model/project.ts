@@ -9,6 +9,15 @@ export type Project = {
 
 export const projects: readonly Project[] = [
   {
+    name: 'Appointment Booking Lite',
+    summary:
+      'A service-business booking request workflow with availability rules, protected admin controls, seeded demo data, CI, and Docker delivery.',
+    stack: ['Next.js', 'Prisma', 'Docker'],
+    href: 'https://github.com/reannu123/appointment-booking-lite',
+    demoHref: 'https://booking.reannu.dev/',
+    kind: 'Service workflow demo',
+  },
+  {
     name: 'PayMongo API Dashboard',
     summary:
       'A payment-operations dashboard with safe demo mode, webhooks, checkout-session workflows, tests, and Docker delivery.',

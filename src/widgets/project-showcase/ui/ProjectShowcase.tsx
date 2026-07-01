@@ -7,8 +7,8 @@ export function ProjectShowcase() {
     <section className="section section--work" id="work">
       <SectionHeading eyebrow="Selected work" title="Projects built for real workflows.">
         <p>
-          Four shipped flagships, each documented and verified for someone else to
-          run—not merely admire from a screenshot.
+          Five deployed demos, each documented and verified for someone else to
+          run rather than merely admire from a screenshot.
         </p>
       </SectionHeading>
 
